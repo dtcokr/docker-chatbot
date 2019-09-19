@@ -1,4 +1,8 @@
 # docker-chatbot
+![Docker Pulls](https://img.shields.io/docker/pulls/dtcokr/chatbot)
+[![](https://images.microbadger.com/badges/image/dtcokr/chatbot.svg)](https://microbadger.com/images/dtcokr/chatbot "Get your own image badge on microbadger.com")
+![GitHub last commit](https://img.shields.io/github/last-commit/dtcokr/docker-chatbot)
+
 Using telegram-chat-bot in docker.
 
 Source code from [Netrvin(GitHub)](https://github.com/Netrvin/telegram-pm-chat-bot).
