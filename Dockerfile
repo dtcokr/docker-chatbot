@@ -1,5 +1,6 @@
 FROM python:3-alpine
-LABEL maintainer "dtcokr <dtcokr@outlook.com>"
+LABEL maintainer="dtcokr <dtcokr@outlook.com>" \
+  org.label-schema.vcs-url="https://github.com/dtcokr/docker-chatbot"
 
 RUN apk add --no-cache --update --virtual .build-deps python3-dev gcc git curl libc-dev libffi-dev openssl-dev \
   && curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
